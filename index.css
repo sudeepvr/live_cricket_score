@@ -1,0 +1,97 @@
+body {
+	background-image: url('background.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.board{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+.score-card{
+	background:rgba(255,255,255, 0.6);
+	width: 300px;
+	height: 400px;
+	display: flex;
+	align-items: left;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 20px;
+	border-radius: 25px;
+	font-family: 'Verdana', sans-seif;
+	margin-right: 50px;
+	padding-bottom: 50px;
+}
+.img {
+	width: 120px;
+	height: 100px;
+	padding-bottom: 50px;
+	padding-top: 30px;
+}
+.head {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold; 
+	font-size: 20px;
+	font-family: 'Verdana', sans-seif;
+}
+.batting-details {
+	background:rgba(255,255,255, 0.5);
+	width: 300px;
+	height: 400px;
+	display: flex;
+	align-items: left;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 20px;
+	border-radius: 25px;
+	font-family: 'Verdana', sans-seif;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.in {
+	margin-bottom: 20px;
+}
+.len {
+	background:rgba(255,255,255, 0.9);
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-bottom: -10px;
+}
+.search input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 200px; 
+    margin-right: 10px; 
+    transition: box-shadow 0.3s ease; 
+}
+.search input[type="text"]:focus {
+    box-shadow: 0 0 10px #007bff; 
+}
+.search button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff; 
+    color: #fff; 
+    transition: background-color 0.3s ease; 
+}
+.search button:hover {
+    background-color: #0056b3; 
+}
+
+
+
+
